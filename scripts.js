@@ -84,4 +84,6 @@ function displayRecipeDetails(recipe) {
         
         <a href="${recipe.strYoutube}" target="_blank">Watch on YouTube</a>
     `;
+    
+    recipeDetails.scrollIntoView({ behavior: 'smooth' });
 }
