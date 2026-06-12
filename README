@@ -1,3 +1,117 @@
-# Buscador de Receitas
+# 🍽️ Buscador de Receitas
 
-Aplicação desenvolvida com foco no consumo de dados de uma API pública, permitindo buscar receitas de forma dinâmica e exibir informações detalhadas sobre cada prato.
+Aplicação web desenvolvida com HTML, CSS e JavaScript que permite pesquisar receitas a partir de um ingrediente informado pelo usuário.
+
+Os dados são obtidos em tempo real através da API pública TheMealDB, exibindo informações detalhadas sobre cada receita, incluindo ingredientes, instruções de preparo e vídeo tutorial.
+
+## 🚀 Funcionalidades
+
+* Pesquisa de receitas por ingrediente
+* Consumo de API externa utilizando Fetch API
+* Exibição dinâmica dos resultados
+* Visualização dos detalhes da receita
+* Lista de ingredientes
+* Instruções de preparo
+* Link para vídeo da receita no YouTube
+* Rolagem automática para os detalhes da receita
+* Indicador de carregamento durante as requisições
+
+## 🛠️ Tecnologias Utilizadas
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* Fetch API
+* TheMealDB API
+
+## 📂 Estrutura do Projeto
+
+```text
+project/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## ⚙️ Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+
+2. Abra o arquivo `index.html` no navegador.
+
+Ou utilize uma extensão como **Live Server** para uma melhor experiência de desenvolvimento.
+
+## 🔍 Como Utilizar
+
+1. Digite um ingrediente no campo de busca.
+2. Clique em pesquisar.
+3. Visualize as receitas encontradas.
+4. Clique em uma receita para visualizar seus detalhes.
+5. Consulte os ingredientes, modo de preparo e vídeo explicativo.
+
+## 🌐 API Utilizada
+
+O projeto utiliza a API pública:
+
+**TheMealDB**
+
+Endpoints utilizados:
+
+### Buscar receitas por ingrediente
+
+```http
+GET https://www.themealdb.com/api/json/v1/1/filter.php?i=ingrediente
+```
+
+### Buscar detalhes de uma receita
+
+```http
+GET https://www.themealdb.com/api/json/v1/1/lookup.php?i=idDaReceita
+```
+
+## 🎓 Conceitos Aplicados
+
+### JavaScript
+
+* Manipulação do DOM
+* Eventos de formulário
+* Programação assíncrona com Async/Await
+* Consumo de APIs REST
+* Tratamento de erros
+* Template Literals
+* Métodos de arrays (`map`, `join`, `push`)
+* Delegação de eventos
+
+### Frontend
+
+* Estruturação semântica com HTML5
+* Estilização com CSS3
+* Renderização dinâmica de conteúdo
+* Experiência do usuário com feedback visual de carregamento
+
+### Integração com APIs
+
+* Requisições HTTP utilizando Fetch API
+* Consumo de dados em formato JSON
+* Processamento e exibição de dados recebidos da API
+
+## 💡 Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos fundamentais do desenvolvimento frontend moderno:
+
+* Comunicação com APIs externas
+* Manipulação dinâmica de elementos HTML
+* Atualização de interfaces baseada em dados
+* Organização de código JavaScript
+* Trabalho com dados assíncronos
+* Criação de aplicações orientadas a eventos
+
+## 📄 Licença
+
+Projeto desenvolvido para fins de estudo e prática de desenvolvimento web.
