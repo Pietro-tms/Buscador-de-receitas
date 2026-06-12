@@ -24,7 +24,6 @@ Os dados são obtidos em tempo real através da API pública TheMealDB, exibindo
 * Fetch API
 * TheMealDB API
 
-
 ## 🌐 API Utilizada
 
 O projeto utiliza a API pública:
@@ -81,6 +80,7 @@ Durante o desenvolvimento deste projeto foram praticados conceitos fundamentais 
 * Organização de código JavaScript
 * Trabalho com dados assíncronos
 * Criação de aplicações orientadas a eventos
+
 
 ## 📄 Licença
 
