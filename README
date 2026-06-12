@@ -24,36 +24,6 @@ Os dados são obtidos em tempo real através da API pública TheMealDB, exibindo
 * Fetch API
 * TheMealDB API
 
-## 📂 Estrutura do Projeto
-
-```text
-project/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
-## ⚙️ Como Executar
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
-
-2. Abra o arquivo `index.html` no navegador.
-
-Ou utilize uma extensão como **Live Server** para uma melhor experiência de desenvolvimento.
-
-## 🔍 Como Utilizar
-
-1. Digite um ingrediente no campo de busca.
-2. Clique em pesquisar.
-3. Visualize as receitas encontradas.
-4. Clique em uma receita para visualizar seus detalhes.
-5. Consulte os ingredientes, modo de preparo e vídeo explicativo.
 
 ## 🌐 API Utilizada
 
